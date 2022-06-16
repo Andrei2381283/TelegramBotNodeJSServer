@@ -1,0 +1,20 @@
+{
+  "name": "telegrambotnodejsserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "cross-env DEBUG=* node index.js",
+    "debug-bot": "cross-env DEBUG=node-telegram-bot-api node index.js"
+  },
+  "author": "Andrew",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "mysql2": "^2.3.3",
+    "node-telegram-bot-api": "^0.57.0",
+    "sequelize": "^6.20.1"
+  }
+}
